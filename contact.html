@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+    Sasha Peters
+    Coding Bootcamp
+    HW1 - contact.html
+    1/28/2019
+
+    contact.html contains the content for the contact section of the site.
+-->
+<html>
+<head>
+    <title>CSS Practice</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+</head>
+<body>
+    <div class="contentContainer">
+        <div class="navbar">
+            <ul class="navbarContent">
+                <li style="display:inline-block"><h1 class="name"> Sasha Peters</h1></li>
+                <li style="float:right" class="lilink"><a class="link1" href="contact.html"> Contact</a></li>
+                <li style="float:right" class="lilink"><a style="color: #cccccc" class="link">|</a></li>
+                <li style="float:right" class="lilink"><a class="link1" href="portfolio.html">Portfolio</a></li>
+                <li style="float:right" class="lilink"><a style="color: #cccccc" class="link">|</a></li>
+                <li style="float:right" class="lilink"><a class="link1" href="index.html">About</a></li>
+            </ul>
+        </div>
+
+
+        <div class="content">
+
+            <div class="h1Container">
+                <h1>Contact</h1>
+            </div>
+
+            <div class="inputContainer">
+                <p>Name</p>
+                <input class="inputText" type="text" name="fullname">
+
+                <p>Email</p>
+                <input class="inputText" type="text" name="email">
+
+                <p>Message</p>
+                <textarea class="inputMessage" rows="10" columns="100"></textarea>
+                <br>
+                <input class="button" type="submit" value="Submit">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerTextBorder">
+            <a class="footerText">Copyright ©</a>
+        </div>
+    </footer>
+</body>
+</html>

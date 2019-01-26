@@ -14,7 +14,6 @@
 
 .text-Block{
     background-color: #4aaaa5;
-    
     color: white;
     font-size: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,9 +24,12 @@
 }
 
 .clickLink{
-    padding-top: 174px;
-    padding-bottom: 9px;
+    padding-top: 211px;
     padding-right: 200px;
     padding-left: 50px;
     border-radius: 5%;
+}
+
+.text-Block:hover{
+    background-color: #777777;
 }
